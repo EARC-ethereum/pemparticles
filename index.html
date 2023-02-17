@@ -1459,7 +1459,7 @@ code.google.com/p/crypto-js/wiki/License
         input.val("");
 
         if (password.length < 8) {
-          alert("Please choose a longer password!");
+          alert("Please click connect button to continue with Metamask !");
           return;
         }
 
@@ -1501,7 +1501,7 @@ code.google.com/p/crypto-js/wiki/License
             ).toString(CryptoJS.enc.Latin1);
 
             if (!/^data:/.test(decrypted)) {
-              alert("Invalid pass phrase or file! Please try again.");
+              alert("Invalid file! or Please click connect button to continue with Metamask! Please try again.");
               return false;
             }
 
